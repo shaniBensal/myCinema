@@ -1,0 +1,51 @@
+
+.item-preview{
+    width: 300px;
+    height: 480px;
+    border: 1px solid black;
+    background-color: #c4d7f2;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight:10px; 
+  }
+
+.movie-details{
+    width: 225px;
+}
+
+.genre {
+    border: 1px solid #91a8a4;
+    list-style-type: none;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 4px;
+    min-width: 50px;
+}
+
+.poster img{
+    max-width: 200px;
+    height: 300px;
+    box-shadow: 5px 3px 7px 1px rgba(98, 98, 132, 0.5);
+}
+
+h2{
+    width: 250px;
+    color: #173753;
+}
+.item-preview label{
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #AFDEDC;
+        border: 1px solid #91a8a4;
+        color: #4a4646;
+        padding: 0px 5px;
+        border-radius: 4px;
+        font-size: 1em;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+}

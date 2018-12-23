@@ -1,0 +1,32 @@
+.header {
+    background-color: #776871;
+    color: white;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 3em;
+    margin-left: 30px;
+    font-family: 'Modern Antiqua', cursive;
+    
+}
+.header-img {
+    width: 145px;
+    margin-top: 50px;
+}
+
+   @media (max-width: 710px) {
+    .header input {
+        width: 70%;
+    }
+    .header-img {
+        width: 125px;
+        margin-top: 50px;
+    }
+    .header-title {
+        font-size: 2em;
+        margin-left: 20px;        
+    }
+   }

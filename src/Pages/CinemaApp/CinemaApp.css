@@ -1,0 +1,10 @@
+
+.pages-btn button{
+    border-radius: 50%;
+    font-size: 1.8rem;
+    height: 42px;
+    width: 42px;
+    margin-right: 10px;
+    margin-top:10px;
+    border: none;
+}

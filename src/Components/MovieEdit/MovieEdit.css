@@ -1,0 +1,65 @@
+.edit-input{
+    border-radius: 0.25rem;
+    width: 80%;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+textarea{
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    margin: 5px 0px;
+    max-width: 100%;
+    max-height: 85px;
+    font-family: inherit;
+}
+
+.edit-cmp{
+    color: #173753;
+}
+
+h2{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.submit-btn {
+    width: 100px;
+    color: aliceblue;
+    background-color: #20BF7E;
+    font-size: 16px;
+    font-family: Arial;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+  }
+
+  label{
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  @media (max-width: 650px){
+    .genre-input{
+        flex-direction: column;
+    }
+    .same-line{
+        flex-direction: column;
+    }
+    textarea{
+    max-height: 55px;
+    }
+    input{
+        padding: 0.4rem;
+      }
+
+  }
+  
